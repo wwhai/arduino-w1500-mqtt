@@ -44,13 +44,13 @@ void callback(char *topic, byte *payload, unsigned int length)
 //
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   while (Serial.available())
     ;
   Serial.print("*** Device starting: ");
   Serial.println(DEVICEID);
   Serial.print("*** Device Baud Rate: ");
-  Serial.println(115200);
+  Serial.println(9600);
   Serial.print("*** MQTT Server: ");
   Serial.println(MQTT_HOST);
   if (Ethernet.begin(mac) == 0)
