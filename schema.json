@@ -1,0 +1,47 @@
+{
+    "@context": "https://www.w3.org/2022/wot/td/v1.1",
+    "title": "Arduino_UNO",
+    "description": "Arduino_UNO_W5100网卡设备",
+    "properties": {
+        "adcA0": {
+            "type": "number",
+            "title": "adcA0",
+            "description": "adcA0",
+            "unit": "v",
+            "readOnly": true,
+            "maximum": 5
+        },
+        "adcA1": {
+            "type": "number",
+            "title": "adcA1",
+            "description": "adcA1",
+            "unit": "v",
+            "readOnly": true,
+            "maximum": 5
+        },
+        "adcA2": {
+            "type": "number",
+            "title": "adcA2",
+            "description": "adcA2",
+            "unit": "v",
+            "readOnly": true,
+            "maximum": 5
+        },
+        "adcA3": {
+            "type": "number",
+            "title": "adcA3",
+            "description": "adcA3",
+            "unit": "v",
+            "readOnly": true,
+            "maximum": 5
+        },
+        "adcA4": {
+            "type": "number",
+            "title": "adcA4",
+            "description": "adcA4",
+            "unit": "v",
+            "readOnly": true,
+            "maximum": 5
+        }
+    }
+}
